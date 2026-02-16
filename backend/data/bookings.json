@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1771249210233",
+    "packageId": "graduation",
+    "packageName": "Graduation",
+    "price": 200000,
+    "currency": "RWF",
+    "name": "araje",
+    "email": "josh@gmail.com",
+    "whatsapp": "+250784447583",
+    "date": "2026-02-16",
+    "time": "15:38",
+    "notes": "",
+    "createdAt": "2026-02-16T13:40:10.233Z"
+  },
+  {
+    "id": "1771255618694",
+    "packageId": "graduation",
+    "packageName": "Graduation",
+    "price": 200000,
+    "currency": "RWF",
+    "name": "kagirimana",
+    "email": "karenzo@gmail.com",
+    "whatsapp": "+250784447583",
+    "date": "2026-02-16",
+    "time": "17:28",
+    "notes": "",
+    "createdAt": "2026-02-16T15:26:58.694Z"
+  }
+]

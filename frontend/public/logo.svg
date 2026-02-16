@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e8c547"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <!-- Camera icon -->
+  <g transform="translate(0, 4)">
+    <path d="M18 6h2l2 3h6l2-3h2a4 4 0 0 1 4 4v22a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V10a4 4 0 0 1 4-4h4l2-3h6l2 3z" stroke="url(#gold)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="16" cy="20" r="5" stroke="url(#gold)" stroke-width="2" fill="none"/>
+  </g>
+  <!-- Text: Real Focus Image -->
+  <text x="44" y="32" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="0.02em">Real Focus Image</text>
+</svg>

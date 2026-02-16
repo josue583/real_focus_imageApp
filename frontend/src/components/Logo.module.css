@@ -1,0 +1,53 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.logo:hover {
+  color: var(--gold);
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.logo:hover .icon {
+  color: var(--gold-light, #e8c547);
+}
+
+.text {
+  white-space: nowrap;
+}
+
+.small .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.small .text {
+  font-size: 0.95rem;
+}
+
+.large .icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.large .text {
+  font-size: 1.5rem;
+}

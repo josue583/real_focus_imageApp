@@ -1,0 +1,74 @@
+[
+  {
+    "id": "graduation",
+    "name": "Graduation",
+    "category": "Events & Corporate",
+    "price": 200000,
+    "currency": "RWF",
+    "popular": true,
+    "features": ["Professional coverage", "Event highlights", "Online gallery", "Flash drive"]
+  },
+  {
+    "id": "birthday-party",
+    "name": "Birthday Party",
+    "category": "Events & Corporate",
+    "price": 100000,
+    "currency": "RWF",
+    "popular": true,
+    "features": ["All photos delivered", "Highlight"]
+  },
+  {
+    "id": "quick-shot",
+    "name": "Quick Shot",
+    "category": "Studio Shoot",
+    "price": 2000,
+    "currency": "RWF",
+    "popular": false,
+    "features": ["1 Studio shoot", "Basic edit"]
+  },
+  {
+    "id": "basic-portrait",
+    "name": "Basic Portrait",
+    "category": "Studio Shoot",
+    "price": 50000,
+    "currency": "RWF",
+    "popular": false,
+    "features": ["10 edited photos", "Indoor studio", "Basic retouching", "1 outfit change"]
+  },
+  {
+    "id": "premium-portrait",
+    "name": "Premium Portrait",
+    "category": "Studio Shoot",
+    "price": 120000,
+    "currency": "RWF",
+    "popular": false,
+    "features": ["25 edited photos", "Professional lighting", "Advanced retouching", "3 outfit changes", "Makeup consultation"]
+  },
+  {
+    "id": "wedding-basic",
+    "name": "Basic",
+    "category": "Wedding",
+    "price": 600000,
+    "currency": "RWF",
+    "popular": false,
+    "features": ["2 Albums of 400 Photos", "2 Highlights", "Flash + Video + all Photos", "3 Cadre A2, A3 (2)"]
+  },
+  {
+    "id": "wedding-premium",
+    "name": "Premium",
+    "category": "Wedding",
+    "price": 1300000,
+    "currency": "RWF",
+    "popular": true,
+    "features": ["2 Photographers + 2 Videographers", "Drone shoot", "Wedding Photo book", "Full wedding video + 1.30 min Highlight (2 Highlights); all video comes with flash disk", "3 or 5 min of wedding documentary, on both side bride & groom", "Pre wedding + brideshower", "Two A2 frame And one A1"]
+  },
+  {
+    "id": "wedding-standard",
+    "name": "Standard",
+    "category": "Wedding",
+    "price": 800000,
+    "currency": "RWF",
+    "popular": false,
+    "features": ["2 Photographers + 2 Videographers", "2 Albums of 400 photos + all soft copies", "Two A2 Frame all are board", "Full wedding Video + 1.30 min Highlight (2 highlights); all videos come with flash disk", "3 or 5 min of wedding documentary on both side Brideshower + civil + dote + wedding"]
+  }
+]
