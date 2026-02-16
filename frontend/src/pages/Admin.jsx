@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './Admin.module.css'
-
-const API = '/api'
+import { API, API_BASE } from '../api'
 const ADMIN_KEY = 'adminPassword'
 
 function getAdminPassword() {
@@ -297,7 +296,7 @@ export default function Admin() {
               <div key={item.id} className={styles.card}>
                 <div className={styles.imgWrap}>
                   <img
-                    src={item.url}
+                    src={API_BASE + item.url}
                     alt={item.title || item.filename}
                     className={styles.img}
                   />

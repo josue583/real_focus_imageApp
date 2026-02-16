@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import styles from './BookingForm.module.css'
 
-const API = '/api'
+import { API } from '../api'
 
 export default function BookingForm({ onSuccess, showHeading = true, initialPackageId = '' }) {
   const [packages, setPackages] = useState([])

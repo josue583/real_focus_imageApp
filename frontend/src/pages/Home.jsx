@@ -4,7 +4,7 @@ import PackageCard from '../components/PackageCard'
 import BookingForm from '../components/BookingForm'
 import styles from './Home.module.css'
 
-const API = '/api'
+import { API } from '../api'
 
 export default function Home() {
   const [packages, setPackages] = useState([])

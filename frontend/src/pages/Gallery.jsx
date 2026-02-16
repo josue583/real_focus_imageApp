@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import styles from './Gallery.module.css'
+import { API, API_BASE } from '../api'
 
-const API = '/api'
 const SLIDE_INTERVAL_MS = 5000
 
 export default function Gallery() {
@@ -52,7 +52,7 @@ export default function Gallery() {
     goTo((slideIndex + 1) % items.length, 1)
   }
 
-  const baseUrl = ''
+  const baseUrl = API_BASE
 
   return (
     <div className={styles.page}>
